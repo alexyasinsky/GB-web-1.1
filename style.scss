@@ -1,0 +1,48 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  line-height: 1;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style-type: none;
+}
+
+html,
+body {
+  height: 100%;
+  padding-left: calc(50% - 800px);
+  padding-right: calc(50% - 800px);
+}
+
+.padding-site {
+  padding-left: 14.375%;
+  padding-right: 14.375%;
+}
+
+.wrapper {
+  min-height: 100%;
+  background-color: yellow;
+}
+
+.header {
+  height: 100px;
+  background-color: green;
+}
+
+.clr {
+  height: 80px;
+}
+
+.footer {
+  height: 80px;
+  margin-top: -80px;
+  background-color: red;
+}
